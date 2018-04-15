@@ -23,6 +23,7 @@
         android:background="@android:color/holo_green_light"
         android:text="Gun Violence"
         android:drawableLeft="@drawable/ic_pistol"
+        android:onClick="gunViolence"
         android:paddingLeft="10dp"
         android:layout_marginTop="100dp" />
 
@@ -35,6 +36,7 @@
         android:text="Drug Epidemic"
         android:drawableLeft="@drawable/ic_pill"
         android:paddingLeft="10dp"
+        android:onClick="drugEpidemic"
         android:layout_marginTop="200dp"
         android:id="@+id/button" />
 
@@ -46,6 +48,7 @@
         android:layout_marginTop="38dp"
         android:background="@android:color/holo_green_light"
         android:drawableLeft="@drawable/ic_cash_multiple"
+        android:onClick="payGap"
         android:paddingLeft="10dp"
         android:text="Pay Gap" />
 
@@ -56,6 +59,7 @@
         android:layout_centerHorizontal="true"
         android:background="@android:color/holo_green_light"
         android:text="Immigration/Refugees"
+        android:onClick="immigration"
         android:drawableLeft="@drawable/ic_human_male_female"
         android:paddingLeft="10dp"
         android:layout_marginTop="400dp" />
@@ -68,6 +72,7 @@
         android:background="@android:color/holo_green_light"
         android:text="War in Middle East"
         android:drawableLeft="@drawable/ic_sword_cross"
+        android:onClick="war"
         android:paddingLeft="10dp"
         android:layout_marginTop="500dp" />
 
@@ -78,6 +83,7 @@
         android:layout_centerHorizontal="true"
         android:background="@android:color/holo_red_dark"
         android:text="Get Involved!"
+        android:onClick="involved"
         android:drawableLeft="@drawable/ic_sign_text"
         android:paddingLeft="10dp"
         android:layout_marginTop="600dp" />
