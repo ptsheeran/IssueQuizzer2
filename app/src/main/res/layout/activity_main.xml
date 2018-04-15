@@ -71,4 +71,15 @@
         android:paddingLeft="10dp"
         android:layout_marginTop="500dp" />
 
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_red_dark"
+        android:text="Get Involved!"
+        android:drawableLeft="@drawable/ic_sign_text"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="600dp" />
+
 </RelativeLayout>
